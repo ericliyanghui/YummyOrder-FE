@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/shopname"
+        android:layout_width="62dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="69dp"
+        android:text="商店名"
+        android:textSize="50px"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/ms_merchant1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ms_merchant2"
+        android:layout_marginTop="173dp"
+        android:text="商品1"
+        android:textSize="40px"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/ms_merchant2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ms_merchant3"
+        android:layout_marginTop="217dp"
+        android:text="商品2"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/ms_merchant3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="220dp"
+        android:layout_marginStart="118dp"
+        android:text="商品3"
+        android:clickable="true"/>
+</RelativeLayout>

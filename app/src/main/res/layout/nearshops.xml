@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/shop1"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-54dp"
+        android:background="@mipmap/burgerking"
+        android:contentDescription="Shop1" />
+
+    <TextView
+        android:id="@+id/shop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="商家1"
+        android:textColor="@color/dark" />
+
+
+    <TextView
+        android:id="@+id/shop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="商家2"
+        android:textColor="@color/dark" />
+
+    <TextView
+        android:id="@+id/shop3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="商家3"
+        android:textColor="@color/dark" />
+
+    <ImageButton
+        android:id="@+id/mainpage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/image1"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:contentDescription="主页"
+        app:srcCompat="@mipmap/home" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop1"
+        android:layout_gravity="bottom"
+        android:layout_toEndOf="@+id/image1"
+        android:layout_weight="1"
+        android:contentDescription="订单"
+        app:srcCompat="@mipmap/order" />
+
+</RelativeLayout>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">-->
+    <!--<TextView android:id="@+id/text_01" android:layout_width="50dp" android:layout_height="50dp" android:background="#ffffffff" android:gravity="center" android:layout_alignParentBottom="true" android:text="1"/>-->
+    <!--<TextView android:id="@+id/text_02" android:layout_width="50dp" android:layout_height="50dp" android:background="#ff654321" android:gravity="center" android:layout_above="@id/text_01" android:layout_centerHorizontal="true" android:text="2"/>-->
+    <!--<TextView android:id="@+id/text_03" android:layout_width="50dp" android:layout_height="50dp" android:background="#fffedcba" android:gravity="center" android:layout_toLeftOf="@id/text_02" android:layout_above="@id/text_01" android:text="3"-->
+        <!--android:layout_toStartOf="@id/text_02" />-->
+<!--</RelativeLayout>-->

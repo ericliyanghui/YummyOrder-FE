@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/hb"
+        android:layout_width="330dp"
+        android:layout_height="107dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@mipmap/hamburger" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/hb"
+        android:layout_marginTop="177dp"
+        android:text="汉堡"
+        android:textSize="50px" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/hb"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="224dp"
+        android:clickable="true"
+        app:srcCompat="@mipmap/plus" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/hb"
+        android:layout_alignTop="@+id/floatingActionButton"
+        android:text="¥16"
+        android:textSize="40px" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="74dp"
+        android:background="@drawable/shape"
+        android:text="起送价" />
+</RelativeLayout>
