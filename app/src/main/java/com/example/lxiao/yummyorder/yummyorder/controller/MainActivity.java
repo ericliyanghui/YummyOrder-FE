@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.lxiao.yummyorder.R;
+import com.example.lxiao.yummyorder.yummyorder.getInfo.getInfo;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         shops.setOnClickListener(new View.OnClickListener(){  //匿名类，只能是内部类，用于继承和实现接口（这里是接口），编译时会自动生成带名字的类
             @Override
             public void onClick(View v){
-                Intent intent=new Intent(MainActivity.this,NearShops.class);
+                Intent intent=new Intent(MainActivity.this,getInfo.class);
                 startActivity(intent);
             }
         });

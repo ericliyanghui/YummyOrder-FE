@@ -21,6 +21,7 @@
         </activity>
         <activity android:name=".yummyorder.controller.Shop1" />
         <activity android:name=".yummyorder.controller.Shop2" />
+        <activity android:name=".yummyorder.getInfo.getInfo"/>
     </application>
 
 </manifest>
